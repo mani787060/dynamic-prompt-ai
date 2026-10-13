@@ -14,7 +14,7 @@ Built with Streamlit, the application provides an interactive interface for conf
 
 Instead of relying on one fixed instruction, dynamic prompting allows users to modify the context, tone, and behavior expected from an AI model. The project demonstrates how prompt engineering and model configuration can be combined in a single interface.
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Understand the role of system instructions in LLM applications.
 - Experiment with user-defined personas and prompt templates.
@@ -23,7 +23,7 @@ Instead of relying on one fixed instruction, dynamic prompting allows users to m
 - Manage conversation state using Streamlit.
 - Practice API credential management and basic error handling.
 
-## ⚙️ Key Features
+## Key Features
 
 ### 1. Dynamic Prompt Engineering
 
@@ -75,7 +75,7 @@ The application supports API credentials supplied through the interface or envir
 
 Using environment variables or a `.env` file helps keep credentials separate from source code. API keys should never be committed to a public repository.
 
-## 🧠 How It Works
+## How It Works
 
 The application follows this general workflow:
 
@@ -87,7 +87,7 @@ The application follows this general workflow:
 6. **Display the output:** Present the response through the Streamlit interface.
 7. **Maintain context:** Preserve relevant conversation state during the session.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Programming Language:** Python
 - **Web Interface:** Streamlit
@@ -95,7 +95,7 @@ The application follows this general workflow:
 - **Configuration:** python-dotenv
 - **State Management:** Streamlit Session State
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -150,7 +150,7 @@ Replace `your_script.py` with the actual Python filename in your repository.
 4. Adjust supported generation parameters.
 5. Submit a prompt and compare the resulting responses.
 
-## 🌍 Potential Applications
+## Potential Applications
 
 - AI writing and content generation
 - Programming assistance and code explanation
@@ -161,7 +161,7 @@ Replace `your_script.py` with the actual Python filename in your repository.
 
 These are potential applications of the techniques demonstrated by the project, rather than claims that each is a separate implemented feature.
 
-## 📚 Key Learning Outcomes
+## Key Learning Outcomes
 
 This project provides practical exposure to:
 
@@ -173,7 +173,7 @@ This project provides practical exposure to:
 - Environment-based configuration
 - Multi-provider application design
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Add side-by-side comparison of responses from multiple models.
 - Support reusable, user-saved prompt templates.
@@ -185,7 +185,7 @@ This project provides practical exposure to:
 - Improve validation, logging, and provider-specific error handling.
 - Support secure deployment with managed secrets.
 
-## ⚠️ Important Notes
+## Important Notes
 
 - Model access and API pricing depend on the selected provider.
 - Generated responses may contain incorrect or misleading information.
@@ -193,7 +193,7 @@ This project provides practical exposure to:
 - API credentials must be kept private.
 - Verify that the configured SDKs and model names are compatible with the current provider APIs.
 
-## ✅ Conclusion
+## Conclusion
 
 Dynamic Prompt AI Orchestrator demonstrates how customizable instructions, reusable prompt templates, and LLM API integrations can be combined in an interactive Python application.
 
